@@ -6,4 +6,5 @@ const criptoHash = (...inputs) => {
     return hash.digest('hex');
 }
 
+
 module.exports = criptoHash;
