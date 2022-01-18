@@ -12,5 +12,14 @@ const GENESIS_DATA = {
 
 const STARTING_VALUE = 1000;
 
+const REWARD_INPUT = { address: '*authorized-reward*' }
+const MINING_REWARD = 50;
 
-module.exports = { GENESIS_DATA, MINE_RATE, STARTING_VALUE }
+
+module.exports = { 
+    GENESIS_DATA, 
+    MINE_RATE, 
+    STARTING_VALUE,
+    REWARD_INPUT,
+    MINING_REWARD
+ }
